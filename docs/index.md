@@ -19,9 +19,8 @@ This document describes the procedure for using the Quality Inspection applicati
 
     Resolution: 
 
-    [Full HD (1920x1080) with 100% Display Scaling]
-
-    or 
+    [Full HD (1920x1080) with 100% Display Scaling]   or
+ 
 
     [4K (3840x2160) with 200% Display Scaling]
 
