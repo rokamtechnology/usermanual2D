@@ -71,7 +71,7 @@ Click on the "**QualityInspection**" application icon located on the desktop.
 Once the Application is opened, then Application will start. The Below Screen will appear for few seconds which will load all the settings required for the application.
 
 <div style="text-align: center;">
-<img src="path/image-19.png" alt="alt text" style="width: 600px; height: auto;"> 
+<img src="path/image-19.png" alt="alt text" style="width: 350px; height: auto;"> 
 </div>
 
 If there are any warnings or error, the respective dialog box will be shown. 
