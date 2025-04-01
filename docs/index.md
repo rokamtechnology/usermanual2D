@@ -1,13 +1,15 @@
 # **QUALITY INSPECTION**
-
 **INTRODUCTION**
 
 Our application specialize in advanced automation technologies such as surface detect inspection, OCR/OCV (Optical Character Recognition/Optical Character Verification), and critical measurements. These technologies are integrated into our specialized application, **QualityInspection**, which is designed to enhance precision and operational efficiency in various industrial processes.
 
-**OBJECTIVES** 
+##**1. OBJECTIVES** 
 This document describes the procedure for using the Quality Inspection application. Below is an overview of its basic architecture:
 
-![alt text](path/image-17.png)
+<div style="text-align: center;">
+<img src="path/image-17.png" alt="alt text" style="width: 700px; height: auto;"> 
+</div>
+
 
  **HARDWARE :**
 
@@ -50,21 +52,36 @@ OPERATING SYSTEM :
 
 QUALITY INSPECTION APPLICATION :
 
-![alt text](path/image-18.png)
+<div style="text-align: center;">
+<img src="path/image-18.png" alt="alt text" style="width: 700px; height: auto;"> 
+</div>
+
 
 The full installation, including the operating system, will require approximately 50 GB of space on the C drive for the new PC.
 
 
-## **APPLICATION**
+## **2. SOFTWARE APPLICATION**
 
-Click on the "**QualityInspection**" application icon located on the desktop. Once the application opens, it will start automatically. The following screen will appear for a few seconds while the required settings are loaded.
+Click on the "**QualityInspection**" application icon located on the desktop.
 
-![alt text](path/image-19.png)
+<div style="text-align: center;">
+<img src="path/image-30.png" alt="alt text" style="width: 85px; height: auto;"> 
+</div>
 
+Once the Application is opened, then Application will start. The Below Screen will appear for few seconds which will load all the settings required for the application.
 
-## **LOGIN**
+<div style="text-align: center;">
+<img src="path/image-19.png" alt="alt text" style="width: 600px; height: auto;"> 
+</div>
 
-![alt text](path/image-20.png)
+If there are any warnings or error, the respective dialog box will be shown. 
+After this screen is completed, the Login Screen will open.
+
+## **2.1 LOGIN**
+
+<div style="text-align: center;">
+<img src="path/image-20.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
     1.Click the i icon to open the User Manual.
 
@@ -81,9 +98,11 @@ Click on the "**QualityInspection**" application icon located on the desktop. On
     7.The logged-in username will appear in the top-left corner of every screen.
 
 
-## **QUALITY INSPECTION** DASHBOARD
+## **2.2  DASHBOARD**
 
-![alt text](path/image-01.png)
+<div style="text-align: center;">
+<img src="path/image-01.png" alt="alt text" style="width: 800x; height: auto;"> 
+</div>
 
 The dashboard contains all options available in this application. Some options are accessible based on the user type, as explained in the User Management section. 
 
@@ -97,7 +116,11 @@ The dashboard contains all options available in this application. Some options a
 
 **Camera Management:** Configure the Camera for each SKU based on the requirement
 
+**Multi-Camera Management:**Configure and manage multiple cameras simultaneously for inspection.Adjust individual camera settings and synchronize them for multi-angle or multi-step inspections.
+
 **Image Management:** Delete/View the Images which are captured as reference by the Camera Management.
+
+**Calibration:**Calibrate the cameras and measurement systems to ensure accurate inspection results.Includes setting reference points, scaling factors,p and alignment adjustments.
 
 **Teach Image:** Edit the Inspection Parameters for each SKU
 
@@ -115,11 +138,15 @@ The dashboard contains all options available in this application. Some options a
 
 **ModbusTCP:** Sample Application to Test and Check if the ModbusTCP is working properly with the TCP Client.
 
+**Profinet Ethernet-IP:**Test and verify communication with industrial devices using Profinet and Ethernet-IP protocols.Ensure proper data exchange and validate connectivity with external systems.
+
 **Edit Image Settings:** Modify the Settings for all Inspection Parameters for PASS/FAIL in single screen.
 
-## **SETTINGS**
+## **2.3 SETTINGS**
 
-![alt text](path/image-21.png)
+<div style="text-align: center;">
+<img src="path/image-21.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 **Data Location:** Click on BrowseFolder Button and Select the Folder where we need to save the Inspection Results.
 
@@ -142,7 +169,9 @@ If this option is enabled, then during Startup of the Application, if the Availa
 
 **Save Original Image Format:** Select one among PNG, JPG, TIFF so that the original image has to be saved with different file format, which will be helpful based on different applications.
 
-![alt text](path/image-22.png)
+<div style="text-align: center;">
+<img src="path/image-22.png" alt="alt text" style="width: 650px; height: auto;"> 
+</div>
 
 **Display Cycle Time in [ms]:** Enable or Disable this Functionality, so that we display the Cycle Time in the Inspection view in milliseconds or in seconds.
 
@@ -159,19 +188,25 @@ If this option is enabled, then during Startup of the Application, if the Availa
     Back: Click on Back Button to go back to Dashboard Screen.
 
 
-## **USER MANAGEMENT**
+## **2.4 USER MANAGEMENT**
 
-![alt text](path/image-02.png)
+<div style="text-align: center;">
+<img src="path/image-02.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 You can **add new users**, **delete existing users**, and **view existing users**. To add a **new user**, enter a username (up to 8 characters), a password (up to 8 characters), and select a role: **Administrator**, **Maintenance**, or **Operator**. Then, click the **Add User** button.
 
-![alt text](path/image-23.png)
+<div style="text-align: center;">
+<img src="path/image-23.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 **Role Accessibility:**
 
-![alt text](path/image-24.png)
+<div style="text-align: center;">
+<img src="path/image-24.png" alt="alt text" style="width: 700px; height: auto;"> 
+</div>
 
-## **SKU MANAGEMENT**   
+## **2.5 SKU MANAGEMENT**   
 
 **Accessible for:** Administrator
 
@@ -181,7 +216,9 @@ You can **add new users**, **delete existing users**, and **view existing users*
 
 **SKU Name:** This is used as the name of the Item that has to be inspected.
 
-![alt text](path/image-03.png)
+<div style="text-align: center;">
+<img src="path/image-03.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 **Create:** Select the SKU ID and enter the new SKU Name and click on **ADD** button. Special Characters and Existing SKU Names are not allowed to create new SKU.
 
@@ -206,13 +243,15 @@ The Settings that are visible for every SKU are:
 
 You can also delete individual settings by clicking the **DELETE** button.
 
-## **MARKING ITEMS**
+## **2.6 MARKING ITEMS**
 
 Accessible for: **Administrator**
 
 There are various tools available in this application for component inspection. You can configure the required tools by selecting the tool name, tool ID, and marking name.
 
-![alt text](path/image-04.png)
+<div style="text-align: center;">
+<img src="path/image-04.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 •	Select the Existing **SKU**.
 
@@ -229,13 +268,15 @@ There are various tools available in this application for component inspection. 
 •	Select "**PatternMatchMax**" as the first marking tool if you need to reference other inspection tools with pattern matching. This will ensure that the inspection tools move accordingly wherever the object moves
 
 
-## **CAMERA MANAGEMENT** 
+## **2.7 CAMERA MANAGEMENT** 
 
 Accessible for: **Administrator**
 
 You can select a camera from the list of available, configured cameras. Each camera should be selected and configured with the appropriate SKU. There are various tools available in this application for component inspection. Configure the required tools by selecting the tool name, tool ID, and marking name.
 
-![alt text](path/image-05.png)
+<div style="text-align: center;">
+<img src="path/image-05.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 •	Select the **SKU Number**.  
 
@@ -246,7 +287,7 @@ You can select a camera from the list of available, configured cameras. Each cam
 •	Click on **BACK**  button to go back to the dashboard.
 
 
-## **IMAGE MANAGEMENT**
+## **2.8 IMAGE MANAGEMENT**
 
 Accessible for: **Administrator**
 
@@ -254,7 +295,9 @@ The images saved from **Camera Management** are displayed on this screen
 
 •	Select the **SKU Number**. 
 
-![alt text](path/image-06.png)
+<div style="text-align: center;">
+<img src="path/image-06.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 •   **Add Images:** You can also add images manually, though they are typically captured from Camera Management. If a camera is unavailable, offline inspection can be performed by adding images manually.
 
@@ -263,17 +306,21 @@ The images saved from **Camera Management** are displayed on this screen
 •   Click the **BACK** button to return to the dashboard screen.
 
 
-## **COMMUNICATIONS SETTINGS**  
+## **2.8 COMMUNICATIONS SETTINGS**  
 
 Accessible for: **Administrator**
 
-![alt text](path/image-07.png)
+<div style="text-align: center;">
+<img src="path/image-07.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
-### **COMMUNICATIONS** 
+### **2.8.1 COMMUNICATIONS** 
 
 Accessible for: **Administrator**
 
-![alt text](path/image-10.png)
+<div style="text-align: center;">
+<img src="path/image-10.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 •	Select the SKU Number. 
 
@@ -291,11 +338,13 @@ For All Inspection Tools, all the result details will be available in this commu
 The configured communication string will be separated using “delimiter” when the communication string is sent through the TCP Server.The configured communication string will be sent through the ModbusTCP to the respective modbus registers.
  
 
-### **MODBUS TCP**
+### **2.8.2 MODBUS TCP**
 
 Accessible for: **Administrator** and **Maintenance**
 
-![alt text](path/image-08.png)
+<div style="text-align: center;">
+<img src="path/image-08.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 • Select the **ModbusTCP** option, and the application will act as the Modbus TCP client, while the PLC will act as the Modbus TCP server.
 
@@ -305,7 +354,9 @@ Accessible for: **Administrator** and **Maintenance**
 
 Handshaking of Registers between the PLC and ModbusTCP in the Quality Inspection Application is explained below.
 
-![alt text](path/image-29.png)
+<div style="text-align: center;">
+<img src="path/image-29.png" alt="alt text" style="width: 400px; height: auto;"> 
+</div>
  
 The standard Modbus registers are pre-configured with their register locations, but these locations can be reconfigured. This option is accessible only to administrators.
 
@@ -337,13 +388,19 @@ The standard Modbus registers are pre-configured with their register locations, 
 
 Register Location: Start Address [Refer Settings] + Register Location
 
-![alt text](path/image-25.png)
+<div style="text-align: center;">
+<img src="path/image-25.png" alt="alt text" style="width: 600px; height: auto;"> 
+</div>
 
-![alt text](path/image-26.png)
+<div style="text-align: center;">
+<img src="path/image-26.png" alt="alt text" style="width: 600px; height: auto;"> 
+</div>
 
 To simulate Modbus TCP, you can use the Modbus Simulator application, which can be downloaded from the internet.
 
-![alt text](path/image-27.png)
+<div style="text-align: center;">
+<img src="path/image-27.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 •	Open Modbus Server in the **PLC**.
 
@@ -361,13 +418,13 @@ To simulate Modbus TCP, you can use the Modbus Simulator application, which can 
 
 •	Click the **BACK** button to return to the dashboard.
 
-
-
-### **TCP SERVER**
+### **2.8.3 TCP SERVER**
 
 Accessible for: **Administrator** and **Maintenance**
 
-![alt text](path/image-09.png)
+<div style="text-align: center;">
+<img src="path/image-09.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 Select the **TCP Server** option, and the application will act as a TCP server, while the PLC will act as a TCP client. The following are the TCP server commands used to control the application in the inspection screen:
 
@@ -404,7 +461,9 @@ Select the **TCP Server** option, and the application will act as a TCP server, 
 
 To simulate a TCP client, you can use the **Hercules** application, which can be downloaded from the internet.
 
-![alt text](path/image-28.png)
+<div style="text-align: center;">
+<img src="path/image-28.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 •	Click on **START SERVER** button.
 
@@ -425,21 +484,27 @@ To simulate a TCP client, you can use the **Hercules** application, which can be
 •	Click on **BACK** button to return to the Dashboard.
 
 
-## **TEACHING PART**
+## **2.9 TEACHING PART**
 
 Accessible for: **Administrator**
 
-![alt text](path/image-11.png)
+<div style="text-align: center;">
+<img src="path/image-11.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
-### **TEACH IMAGE** 
+### **2.9.1 TEACH IMAGE** 
 
-![alt text](path/image-12.png)
+<div style="text-align: center;">
+<img src="path/image-12.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
-## **INSPECTION**
+## **2.10 INSPECTION**
 
 Accessible for: **Administrator**, **Maintenance** and **Operator**.
 
-![alt text](path/image-13.png)
+<div style="text-align: center;">
+<img src="path/image-13.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 •	Select the **SKU number** manually, or wait for the PLC to automatically select it through ModbusTCP communication.
 
@@ -461,11 +526,13 @@ Accessible for: **Administrator**, **Maintenance** and **Operator**.
 
     o   A message to the operator about the application status will be displayed at the top center of the screen.
  
-## **ALARMS**
+## **2.11 ALARMS**
 
 Accessible for: **Administrator**, **Maintenance** and **Operator**.
 
-![alt text](path/image-16.png)
+<div style="text-align: center;">
+<img src="path/image-16.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 Alarms will display all log information for the application.
 
@@ -478,11 +545,13 @@ Alarms will display all log information for the application.
 •	Click the  **BACK** Button to return to the Dashboard.
 
 
-## **RESULTS**
+## **2.12 RESULTS**
 
 Accessible for: **Administrator**, **Maintenance** and **Operator**.
 
-![alt text](path/image-14.png)
+<div style="text-align: center;">
+<img src="path/image-14.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 •	Select the **SKU Number**.
 
@@ -505,11 +574,13 @@ Accessible for: **Administrator**, **Maintenance** and **Operator**.
 •	Click the **BACK** Button to return to the Dashboard.
 
 
-## **REPORTS**
+## **2.13 REPORTS**
 
 Accessible for: **Administrator**, **Maintenance** and **Operator**.
 
-![alt text](path/image-15.png)
+<div style="text-align: center;">
+<img src="path/image-15.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 •	Select the **SKU Number**.  
 
@@ -537,10 +608,79 @@ Accessible for: **Administrator**, **Maintenance** and **Operator**.
 
 •	Select the trigger details to view the history of all inspection results in graph form.
 
+## **2.14 Profinet-EthernetIP**
 
-## **EDIT IMAGE SETTINGS**
+<div style="text-align: center;">
+<img src="path/image-32.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
+
+1. **Setings Panel**
+
+    • **Enable ProfinetEIP:** Boolean flag (true/false) indicating whether the Profinet/EthernetIP communication is enabled.
+
+    • **Name:** The name of the communication interface (e.g., cifX1).
+
+    • **Protocol:** Indicates the selected protocol (e.g., NONE).
+
+2. **Connection Control (Top Center)**
+
+    • Users can CONNECT or DISCONNECT from the Profinet/EthernetIP interface.
+
+    • Status field displays the current connection status.
+
+3. **Inputs Section (Left Panel)**
+
+    • Displays input parameters received from the connected device.
+
+    • **Includes values for:**
+
+        SKU ID
+
+        TRIGGER
+
+        SPARE1 – SPARE5
+
+4.  **Outputs Section (Right Panel)**
+
+    • Displays output parameters sent to the connected device.
+
+    • **Users can update values for:**
+
+        SKU ID FEEDBACK
+
+        TRIGGER FEEDBACK
+
+        STATUS
+
+        RESULT
+
+        BARCODE STATUS
+
+        SPARE1, SPARE2
+
+5.  **Additional Communication Data**
+
+    • **Barcode Value (32 Bytes):** Displays scanned barcode data.
+
+    • **Raw Input Data (40 Bytes):** Displays raw data received from the device.
+
+    • **Communications Data1 (64 Bytes) & Communications Data2 (64 Bytes):** Configurable communication fields with an option to update values.
+
+**Functional Features:**
+
+    Real-time monitoring of inputs and outputs.
+
+    Manual parameter updates for outputs.
+
+    Profinet/EthernetIP connectivity control with status feedback.
+
+## **2.15 EDIT IMAGE SETTINGS**
 
 Accessible for: **Administrator** and **Maintenance**
+
+<div style="text-align: center;">
+<img src="path/image-31.png" alt="alt text" style="width: 800px; height: auto;"> 
+</div>
 
 •	Select the **SKU Number**.  
 
@@ -548,7 +688,7 @@ Accessible for: **Administrator** and **Maintenance**
 
 •	Click to edit the “MIN VALUE NEW” and “MAX VALUE NEW” for each inspection tool name.These Values will decide for PASS or FAIL for the Inspection Result for individual tool.
 
-•	View the “MIN VALUE OLD” and “MAX VALUE OLD” to view existing settings value.
+•	View the “**MIN VALUE OLD**” and “**MAX VALUE OLD**” to view existing settings value.
 
 •	Click on **SAVE**  button to save the Image Settings.
 
@@ -559,7 +699,7 @@ Accessible for: **Administrator** and **Maintenance**
 ..................x.................................x.................................x...............................x................................x..................................x.............................x..........................x
 
 
-## **MAINTENANCE and TROUBLESHOOTING**
+## **3 MAINTENANCE and TROUBLESHOOTING**
 
 ***Maintenance :***
 
