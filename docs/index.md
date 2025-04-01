@@ -418,7 +418,7 @@ To simulate Modbus TCP, you can use the Modbus Simulator application, which can 
 
 •	Click the **BACK** button to return to the dashboard.
 
-**For more details click on the below : **
+**For more details click on the below :**
 
 [ModbusTCP Online Manual](https://rokamtechnology.github.io/modbusTCP_Manual/)
 
