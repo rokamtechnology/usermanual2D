@@ -1,4 +1,5 @@
 site_name: ROKAM
+
 theme:
   name: material
   logo: assets/images/logo.png
@@ -16,22 +17,21 @@ theme:
     - header.autohide
   language: en
   palette:
-    - scheme: default
+    - scheme: slate        # Default: dark mode first
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+      primary: indigo
+      accent: cyan
+    - scheme: default      # Secondary: light mode
+      toggle:
+        icon: material/lightbulb
         name: Switch to dark mode
       primary: blue
-      accent: purple
-    - scheme: slate
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-      primary: blue
-      accent: lime
+      accent: red
 
 plugins:
   - search
- 
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -55,8 +55,9 @@ extra:
     - icon: fontawesome/brands/google
       link: https://rokam.co
   favicon: assets/images/favicon.ico
-  extra_css:
-    - assets/css/main.css  # Ensure this path is correct
+
+extra_css:
+  - assets/extra.css
 
 copyright: |
   &copy; 2024 <a href="https://github.com/rokamtechnology" target="_blank" rel="noopener">ROKAM</a>

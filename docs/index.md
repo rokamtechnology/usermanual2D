@@ -19,7 +19,7 @@ This document describes the procedure for using the Quality Inspection applicati
 
     Aspect Ratio: 16:9
 
-    Resolution: 
+    Resolution:
 
     [Full HD (1920x1080) with 100% Display Scaling]   or
  
